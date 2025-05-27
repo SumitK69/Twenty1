@@ -1,4 +1,3 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,79 +8,79 @@
     --foreground: 36 35 33; /* eerie_black */
 
     --card: 246 245 241; /* isabelline */
-    --card-foreground: 36 35 33; /* eerie_black */
+    --card-foreground: 36 35 33;
 
-    --popover: 244 244 242; /* white_smoke */
-    --popover-foreground: 36 35 33; /* eerie_black */
+    --popover: 244 244 242;
+    --popover-foreground: 36 35 33;
 
-    --primary: 36 35 33; /* eerie_black */
-    --primary-foreground: 244 244 242; /* white_smoke */
+    --primary: 36 35 33;
+    --primary-foreground: 244 244 242;
 
-    --secondary: 246 245 241; /* isabelline */
-    --secondary-foreground: 36 35 33; /* eerie_black */
+    --secondary: 246 245 241;
+    --secondary-foreground: 36 35 33;
 
-    --muted: 246 245 241; /* isabelline */
-    --muted-foreground: 54 54 51; /* jet */
+    --muted: 246 245 241;
+    --muted-foreground: 54 54 51;
 
-    --accent: 246 245 241; /* isabelline */
-    --accent-foreground: 36 35 33; /* eerie_black */
+    --accent: 246 245 241;
+    --accent-foreground: 36 35 33;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 244 244 242; /* white_smoke */
+    --destructive-foreground: 244 244 242;
 
-    --border: 39 39 39; /* raisin_black */
-    --input: 246 245 241; /* isabelline */
-    --ring: 36 35 33; /* eerie_black */
+    --border: 39 39 39;
+    --input: 246 245 241;
+    --ring: 36 35 33;
 
     --radius: 0.5rem;
 
-    --sidebar-background: 244 244 242; /* white_smoke */
-    --sidebar-foreground: 54 54 51; /* jet */
-    --sidebar-primary: 36 35 33; /* eerie_black */
-    --sidebar-primary-foreground: 244 244 242; /* white_smoke */
-    --sidebar-accent: 246 245 241; /* isabelline */
-    --sidebar-accent-foreground: 36 35 33; /* eerie_black */
-    --sidebar-border: 39 39 39; /* raisin_black */
-    --sidebar-ring: 36 35 33; /* eerie_black */
+    --sidebar-background: 244 244 242;
+    --sidebar-foreground: 54 54 51;
+    --sidebar-primary: 36 35 33;
+    --sidebar-primary-foreground: 244 244 242;
+    --sidebar-accent: 246 245 241;
+    --sidebar-accent-foreground: 36 35 33;
+    --sidebar-border: 39 39 39;
+    --sidebar-ring: 36 35 33;
   }
 
   .dark {
-    --background: 36 35 33; /* eerie_black */
-    --foreground: 244 244 242; /* white_smoke */
+    --background: 36 35 33;
+    --foreground: 244 244 242;
 
-    --card: 39 39 39; /* raisin_black */
-    --card-foreground: 244 244 242; /* white_smoke */
+    --card: 39 39 39;
+    --card-foreground: 244 244 242;
 
-    --popover: 36 35 33; /* eerie_black */
-    --popover-foreground: 244 244 242; /* white_smoke */
+    --popover: 36 35 33;
+    --popover-foreground: 244 244 242;
 
-    --primary: 244 244 242; /* white_smoke */
-    --primary-foreground: 36 35 33; /* eerie_black */
+    --primary: 244 244 242;
+    --primary-foreground: 36 35 33;
 
-    --secondary: 54 54 51; /* jet */
-    --secondary-foreground: 244 244 242; /* white_smoke */
+    --secondary: 54 54 51;
+    --secondary-foreground: 244 244 242;
 
-    --muted: 54 54 51; /* jet */
-    --muted-foreground: 246 245 241; /* isabelline */
+    --muted: 54 54 51;
+    --muted-foreground: 246 245 241;
 
-    --accent: 54 54 51; /* jet */
-    --accent-foreground: 244 244 242; /* white_smoke */
+    --accent: 54 54 51;
+    --accent-foreground: 244 244 242;
 
     --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 244 244 242; /* white_smoke */
+    --destructive-foreground: 244 244 242;
 
-    --border: 54 54 51; /* jet */
-    --input: 39 39 39; /* raisin_black */
-    --ring: 244 244 242; /* white_smoke */
+    --border: 54 54 51;
+    --input: 39 39 39;
+    --ring: 244 244 242;
 
-    --sidebar-background: 36 35 33; /* eerie_black */
-    --sidebar-foreground: 244 244 242; /* white_smoke */
-    --sidebar-primary: 244 244 242; /* white_smoke */
-    --sidebar-primary-foreground: 36 35 33; /* eerie_black */
-    --sidebar-accent: 54 54 51; /* jet */
-    --sidebar-accent-foreground: 244 244 242; /* white_smoke */
-    --sidebar-border: 54 54 51; /* jet */
-    --sidebar-ring: 244 244 242; /* white_smoke */
+    --sidebar-background: 36 35 33;
+    --sidebar-foreground: 244 244 242;
+    --sidebar-primary: 244 244 242;
+    --sidebar-primary-foreground: 36 35 33;
+    --sidebar-accent: 54 54 51;
+    --sidebar-accent-foreground: 244 244 242;
+    --sidebar-border: 54 54 51;
+    --sidebar-ring: 244 244 242;
   }
 }
 
@@ -90,27 +89,27 @@
     @apply border-border;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     @apply bg-background text-foreground;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
       sans-serif;
   }
-
-  html {
-    scroll-behavior: smooth;
-  }
 }
 
 @layer utilities {
   .animate-on-scroll {
-    opacity: 100;
+    opacity: 1;
     transform: translateY(30px);
     transition: all 0.6s ease-out;
   }
 
   .animate-on-scroll.visible {
-    opacity: 100;
+    opacity: 1;
     transform: translateY(0);
   }
 }
